@@ -1,0 +1,24 @@
+$ python Unit1/p05_ai_library_versions.py
+======================================================================
+P5 - Installed AI library versions
+A. ROHIT (192472035) - CSA65 Generative AI Lab
+======================================================================
+Python 3.11.9 on Windows 10
+  numpy           1.26.2
+  pandas          2.1.4
+  matplotlib      3.10.8
+  sklearn         1.3.2
+  torch           2.15.0+cpu
+  transformers    5.24.1
+  tokenizers      0.23.3
+  sentencepiece   0.2.3
+  faiss           1.16.0
+  chromadb        1.5.9
+  fastembed       NOT INSTALLED (ImportError)
+  langchain       1.5.2
+  google.genai    2.18.1
+  ollama          installed
+  faster_whisper  1.2.1
+  streamlit       1.53.1
+
+[exit code 0, 10.0s]

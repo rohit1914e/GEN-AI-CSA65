@@ -1,0 +1,26 @@
+$ python Unit2/p10_sql_query_generation.py
+======================================================================
+U2 P10 - Structured prompt -> SQL -> run on a real SQLite database
+A. ROHIT (192472035) - CSA65 Generative AI Lab
+======================================================================
+
+Requirement: List CSE students with CGPA above 8, highest first.
+SQL: SELECT * FROM students 
+WHERE dept = 'CSE' AND cgpa > 8 
+ORDER BY cgpa DESC;
+Result: [(4, 'Divya', 'CSE', 9.5), (1, 'Rohit', 'CSE', 8.9)]
+
+Requirement: Average marks in CSA65.
+SQL: SELECT AVG(marks) FROM enrollments WHERE course = 'CSA65';
+Result: [(84.0,)]
+
+Requirement: Name of the student with the highest marks in CSA65 and their department.
+SQL: SELECT s.name, s.dept 
+FROM students s 
+JOIN enrollments e ON s.id = e.student_id 
+WHERE e.course = 'CSA65' 
+ORDER BY e.marks DESC 
+LIMIT 1;
+Result: [('Divya', 'CSE')]
+
+[exit code 0, 5.5s]

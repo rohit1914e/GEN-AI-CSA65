@@ -1,0 +1,10 @@
+$ python Unit2/p06_openai_text_generation.py
+======================================================================
+U2 P6 - Text generation with the OpenAI API
+A. ROHIT (192472035) - CSA65 Generative AI Lab
+======================================================================
+Prompt: Explain what a large language model is in 3 sentences.
+OpenAI API not run: 'openai' package not installed (pip install openai). OPENAI_API_KEY is not set in .env.
+Request that would be sent: client.chat.completions.create(model='gpt-4o-mini', messages=[{'role':'user','content': prompt}])
+
+[exit code 0, 0.1s]

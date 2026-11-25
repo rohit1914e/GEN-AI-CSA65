@@ -1,0 +1,9 @@
+$ python Unit1/p01_matplotlib_line_graph.py
+======================================================================
+P1 - Simple line graph with Matplotlib 3.10.8
+A. ROHIT (192472035) - CSA65 Generative AI Lab
+======================================================================
+Data: {'Jan': 62, 'Feb': 68, 'Mar': 71, 'Apr': 75, 'May': 82, 'Jun': 88}
+Line graph saved to C:\Users\Dell\Desktop\genai assignment\GEN-AI-CSA65\Lab_Programs\outputs\U1_P01_line_graph.png
+
+[exit code 0, 0.6s]

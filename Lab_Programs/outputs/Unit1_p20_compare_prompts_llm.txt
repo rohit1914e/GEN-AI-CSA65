@@ -1,0 +1,25 @@
+$ python Unit1/p20_compare_prompts_llm.py
+======================================================================
+P20 - Responses of a pre-trained LLM (GPT-2) for multiple prompts
+A. ROHIT (192472035) - CSA65 Generative AI Lab
+======================================================================
+Prompt: Machine learning is
+  -> Machine learning is a great way to learn new things.
+
+Learning a new language is often an experience you'd like to have in your life. If you're
+  words=27
+
+Prompt: The best way to prepare for exams is
+  -> The best way to prepare for exams is to be prepared for them. The most important thing is to learn to be prepared for them.
+
+There are also many ways to prepare for exams
+  words=34
+
+Prompt: In the year 2050, cars will
+  -> In the year 2050, cars will be the biggest driver of the road. They will drive more than half of the road in the world.
+
+This means that drivers will drive more
+  words=32
+
+
+[exit code 0, 9.0s]

@@ -1,0 +1,8 @@
+$ python Unit1/p02_sklearn_version.py
+======================================================================
+P2 - Scikit-learn version
+A. ROHIT (192472035) - CSA65 Generative AI Lab
+======================================================================
+scikit-learn version: 1.3.2
+
+[exit code 0, 4.2s]

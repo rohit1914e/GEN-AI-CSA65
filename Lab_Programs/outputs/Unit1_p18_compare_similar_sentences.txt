@@ -1,0 +1,12 @@
+$ python Unit1/p18_compare_similar_sentences.py
+======================================================================
+P18 - Similar vs different sentences (BERT mean-pooled embeddings)
+A. ROHIT (192472035) - CSA65 Generative AI Lab
+======================================================================
+S1: The weather is lovely today.
+S2: It is a beautiful sunny day.
+S3: The stock market crashed yesterday.
+cos(S1, S2) similar   = 0.859
+cos(S1, S3) different = 0.614
+
+[exit code 0, 7.6s]

@@ -1,0 +1,36 @@
+$ python Unit2/p02_healthcare_blog.py
+======================================================================
+U2 P2 - 200-word blog: zero / one / few-shot
+A. ROHIT (192472035) - CSA65 Generative AI Lab
+======================================================================
+
+--- ZERO-SHOT : 196 words (target 200) ---
+**Title: Revolutionizing Healing: The Power of AI in Healthcare**
+
+Artificial Intelligence (AI) is no longer a futuristic sci-fi concept; it is actively reshaping the modern healthcare landscape. From early diagnosis to administrative efficiency, AI is empowering medical professionals to save lives and improve patient outcomes like never before. 
+
+One of the most profound applications of AI lies in diagnostics. Machine learning algorithms can analyze medical imaging—such as X-rays, MRIs, and CT scans—with incredible speed and precision. AI models can detect early signs of diseases like cancer, diabetic retinopathy, and neurological disorders far earlier than the human eye, enabling prompt intervention.
+
+Furthermore, AI is accelerating drug discovery. Traditionally, developing a new medication takes decades and billions of dollars. AI algorithms can simulate how different molecules interact with diseases, predicting drug candidates in a fraction of the time. 
+
+In hospitals, predictive analytics anticipate patient deterioration, allowing staff to intervene proactively. Additionally, natural language processing streamlines paperwork, reducing clinician burnout by automating electronic health records. 
+
+Ultimately, AI is not here to replace doctors, but to enhance their capabilities. By handling data-heavy tasks and sharpening diagnostics, AI is paving the way for a smarter, faster, and more personalized healthcare future.
+
+--- ONE-SHOT : 147 words (target 200) ---
+Title: Transforming Medicine: AI in Healthcare
+Intro: Artificial Intelligence is no longer just a sci-fi concept; it is actively revolutionizing how we diagnose, treat, and prevent illnesses, saving countless lives along the way.
+1. Early disease detection: Machine learning algorithms analyze medical imaging, such as X-rays and MRIs, detecting anomalies like tumors or fractures much faster and often more accurately than the human eye.
+2. Personalized treatment plans: By processing vast amounts of patient genetic data and medical history, AI helps doctors tailor specific drug dosages and therapies for individual needs, maximizing effectiveness.
+3. Administrative automation: Virtual health assistants and smart chatbots streamline hospital workflows by managing patient scheduling, answering routine queries, and updating electronic health records seamlessly.
+Conclusion: AI is not here to replace doctors, but to empower them. Embrace the future of medicine by staying informed on how digital health innovations can improve patient outcomes.
+
+--- FEW-SHOT : 145 words (target 200) ---
+Title: Healing Beyond Human Limits
+Intro... Imagine a world where diseases are caught before symptoms even appear. That is the promise of artificial intelligence in modern healthcare. By processing millions of medical data points in seconds, AI is transforming how we diagnose, treat, and prevent illnesses.
+1. Early diagnostics and imaging... AI algorithms scan X-rays, MRIs, and CT scans with superhuman precision, detecting microscopic tumors and anomalies that the human eye might easily miss.
+2. Personalized medicine... By analyzing a patient’s genetic makeup and lifestyle, AI tailors specific treatment plans and drug dosages, drastically reducing adverse side effects.
+3. Robotic-assisted surgery... Surgeons now use AI-powered robotic systems to perform complex procedures with unmatched stability, accuracy, and minimal invasiveness.
+Conclusion: AI is not here to replace doctors, but to empower them with superpowers. Share this post with a healthcare professional and subscribe for more tech insights!
+
+[exit code 0, 8.1s]

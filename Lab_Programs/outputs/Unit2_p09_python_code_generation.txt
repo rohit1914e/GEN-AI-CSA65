@@ -1,0 +1,67 @@
+$ python Unit2/p09_python_code_generation.py
+======================================================================
+U2 P9 - Structured prompt -> Python code -> automatic validation
+A. ROHIT (192472035) - CSA65 Generative AI Lab
+======================================================================
+
+### is_prime(n)
+def is_prime(n: int) -> bool:
+    """Returns True if n is a prime number, else False.
+
+    Parameters:
+    n (int): The integer to check for primality.
+
+    Returns:
+    bool: True if n is prime, False otherwise.
+    """
+    if n <= 1:
+        return False
+    if n <= 3:
+        return True
+    if n % 2 == 0 or n % 3 == 0:
+        return False
+
+    i = 5
+    while i * i <= n:
+        if n % i == 0 or n % (i + 2) == 0:
+            return False
+        i += 6
+
+    return True
+Validation: PASSED [(2, True), (15, False), (97, True), (1, False)]
+
+### fibonacci(n)
+def fibonacci(n: int) -> int:
+    """Return the n-th Fibonacci number.
+
+    Parameters:
+    n (int): The index of the Fibonacci number to retrieve (n >= 0).
+
+    Returns:
+    int: The n-th Fibonacci number where fibonacci(0) = 0 and fibonacci(1) = 1.
+    """
+    if n < 0:
+        raise ValueError("Index must be a non-negative integer.")
+    if n <= 1:
+        return n
+
+    a, b = 0, 1
+    for _ in range(2, n + 1):
+        a, b = b, a + b
+    return b
+Validation: PASSED [(0, 0), (1, 1), (10, 55)]
+
+### reverse_words(s)
+def reverse_words(s: str) -> str:
+    """Returns the sentence with the order of words reversed.
+
+    Args:
+        s (str): The input string containing words.
+
+    Returns:
+        str: A new string with the words in reverse order.
+    """
+    return " ".join(s.split()[::-1])
+Validation: PASSED [('I love AI', 'AI love I')]
+
+[exit code 0, 6.1s]

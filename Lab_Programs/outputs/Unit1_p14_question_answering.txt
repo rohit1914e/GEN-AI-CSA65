@@ -1,0 +1,18 @@
+$ python Unit1/p14_question_answering.py
+======================================================================
+P14 - Extractive question answering (DistilBERT fine-tuned on SQuAD)
+A. ROHIT (192472035) - CSA65 Generative AI Lab
+======================================================================
+Context: Saveetha School of Engineering is located in Chennai, Tamil Nadu. The CSA65 course covers transformers, prompt engineering, retrieval-augmented generation and AI agents. Students need 75 percent attendance. 
+
+Q: Where is Saveetha School of Engineering located?
+A: Chennai, Tamil Nadu  (confidence 0.943)
+
+Q: What does CSA65 cover?
+A: transformers, prompt engineering, retrieval - augmented generation and AI agents  (confidence 0.889)
+
+Q: How much attendance is needed?
+A: 75 percent  (confidence 0.856)
+
+
+[exit code 0, 264.9s]

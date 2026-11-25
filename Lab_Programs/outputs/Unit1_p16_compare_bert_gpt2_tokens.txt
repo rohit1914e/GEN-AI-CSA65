@@ -1,0 +1,14 @@
+$ python Unit1/p16_compare_bert_gpt2_tokens.py
+======================================================================
+P16 - BERT (WordPiece) vs GPT-2 (byte-level BPE) tokenization
+A. ROHIT (192472035) - CSA65 Generative AI Lab
+======================================================================
+Sentence: Tokenization is fundamental for NLP.
+  BERT  (8 tokens): ['token', '##ization', 'is', 'fundamental', 'for', 'nl', '##p', '.']
+  GPT-2 (8 tokens): ['Token', 'ization', 'Ġis', 'Ġfundamental', 'Ġfor', 'ĠN', 'LP', '.']
+Sentence: I'm learning Transformers in 2026!
+  BERT  (9 tokens): ['i', "'", 'm', 'learning', 'transformers', 'in', '202', '##6', '!']
+  GPT-2 (8 tokens): ['I', "'m", 'Ġlearning', 'ĠTransformers', 'Ġin', 'Ġ20', '26', '!']
+Notes: BERT lower-cases and marks sub-words with ##; GPT-2 keeps case and marks a leading space with G-dot.
+
+[exit code 0, 6.2s]

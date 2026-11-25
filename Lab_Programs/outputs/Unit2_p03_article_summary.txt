@@ -1,0 +1,25 @@
+$ python Unit2/p03_article_summary.py
+======================================================================
+U2 P3 - 50-word summaries compared
+A. ROHIT (192472035) - CSA65 Generative AI Lab
+======================================================================
+
+--- ZERO-SHOT (48 words) ---
+India’s electric vehicle sales exceeded two million in 2025, driven by government subsidies and smaller vehicles. Despite this growth, limited charging infrastructure and imported lithium batteries remain challenges. Achieving the 2030 target of thirty percent market share requires expanding highway fast-charging networks and developing domestic cell manufacturing capabilities.
+
+--- ONE-SHOT (53 words) ---
+Electric vehicle sales in India surpassed two million units during 2025, driven by affordable two-wheelers and government subsidies. Despite state tax waivers, limited rural charging infrastructure and imported lithium remain significant challenges. Experts emphasize that domestic cell manufacturing and expanded highway charging networks are essential to achieve thirty percent EV sales by 2030.
+
+--- FEW-SHOT (51 words) ---
+Electric vehicles grew quickly in India, with sales crossing two million units in 2025, led by two-wheelers and three-wheelers. Government subsidies reduced prices, but charging infrastructure remains limited outside big cities, and battery costs depend on imported lithium. Local cell manufacturing and fast-charging corridors are essential to reach targets by 2030.
+
+=== Comparison (LLM-as-judge) ===
+| Summary | Accuracy (1-5) | Completeness (1-5) | Readability (1-5) |
+| :--- | :---: | :---: | :---: |
+| **ZERO-SHOT** | 5 | 5 | 5 |
+| **ONE-SHOT** | 4 | 5 | 5 |
+| **FEW-SHOT** | 5 | 4 | 5 |
+
+**Best Summary:** **ZERO-SHOT** (It captures all key details—sales figures, drivers, challenges, and future requirements—with high accuracy and smooth flow, without introducing minor inaccuracies like the "rural" modifier found in the One-Shot summary).
+
+[exit code 0, 7.1s]

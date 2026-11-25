@@ -1,0 +1,9 @@
+$ python Unit1/p07_hf_sentiment_analysis.py
+======================================================================
+P7 - Sentiment analysis with a pre-trained Transformer
+A. ROHIT (192472035) - CSA65 Generative AI Lab
+======================================================================
+POSITIVE (0.999)  The Generative AI lab session was really interesting!
+NEGATIVE (1.000)  The exam hall was too hot and noisy.
+
+[exit code 0, 35.4s]

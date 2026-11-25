@@ -1,0 +1,41 @@
+$ python Unit2/p07_gemini_text_generation.py
+======================================================================
+U2 P7 - Text generation with the Google Gemini API
+A. ROHIT (192472035) - CSA65 Generative AI Lab
+======================================================================
+
+Prompt  : Write a haiku about monsoon in Chennai.
+Response: Dark clouds mask the sun,
+Velachery roads are lakes,
+Hot air turns to cool.
+
+Prompt  : Give 3 tips to learn Python faster.
+Response: To learn Python faster, you need to move away from passive consumption (watching videos) and toward active application. Here are three tips to accelerate your progress:
+
+### 1. The 20/80 Rule: Build Projects Immediately
+Most beginners fall into "tutorial hell"—watching hours of videos without actually writing code. Instead, follow the 80/20 rule: spend 20% of your time learning the syntax and 80% of your time building small, tangible projects.
+
+*   **How to do it:** Don’t wait until you "know enough." As soon as you learn variables, loops, and functions, build something.
+*   **Project ideas:** A simple to-do list, a random password generator, or a script that renames files in a folder. When you get stuck, *that* is when you look up the specific documentation or solution. This creates "just-in-time" learning, which is much more memorable than "just-in-case" learning.
+
+### 2. Practice "Active Recall" with Code
+Reading code is not the same as writing it. To speed up your brain's ability to retain syntax and logic, use active recall:
+
+*   **How to do it:** After you finish a tutorial or read a chapter, close the editor and try to rewrite the code from memory. If you get stuck, don't just copy-paste the solution. Look at the code, understand the logic, close it again, and try to write it yourself.
+*   **Why it works:** This forces your brain to retrieve information rather than recognize it, which is the fastest way to build long-term neural pathways for programming.
+
+### 3. Master the "Debugger" and Documentation
+The fastest learners aren't the ones who know the most; they are the ones who can solve their own problems the quickest. You will spend 90% of your time fixing bugs, so stop fearing them.
+
+*   **How to do it:**
+    *   **Learn to read Tracebacks:** When your code crashes, Python tells you exactly what went wrong and where. Don't ignore the error message—read it line by line.
+    *   **Use `print()` debugging:** When your code runs but doesn't do what you want, sprinkle `print()` statements throughout your code to see exactly what the data looks like at each step.
+    *   **Learn the Official Documentation:** Instead of searching random blogs, search the [official Python documentation](https://docs.python.org/). It is the single most accurate source of truth and will save you hours of troubleshooting based on outdated advice.
+
+**Pro Tip:** Join a community like r/learnpython or a local Discord server. Explaining a concept you just learned to someone else is the absolute fastest way to identify the gaps in your own understanding.
+
+Prompt  : Explain recursion to a 10-year-old in 2 lines.
+Response: Recursion is when a function calls itself to solve a smaller piece of the same problem. 
+It’s like looking into two facing mirrors, where you see an endless repeating loop of smaller and smaller reflections!
+
+[exit code 0, 27.6s]

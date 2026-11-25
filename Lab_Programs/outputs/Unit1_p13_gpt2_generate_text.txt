@@ -1,0 +1,12 @@
+$ python Unit1/p13_gpt2_generate_text.py
+======================================================================
+P13 - GPT-2 generation: greedy vs sampling
+A. ROHIT (192472035) - CSA65 Generative AI Lab
+======================================================================
+Greedy  : The future of renewable energy in India is uncertain. The country is facing a severe shortage of renewable energy sources, and the country's energy mix is not yet ready for the kind of growth
+Sampling: The future of renewable energy in India is at risk."
+
+
+The Indian Energy Policy Centre (IAPC), an independent think tank based in India, said the current system of power generation
+
+[exit code 0, 10.4s]

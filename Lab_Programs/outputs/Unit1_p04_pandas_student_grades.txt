@@ -1,0 +1,16 @@
+$ python Unit1/p04_pandas_student_grades.py
+======================================================================
+P4 - Pandas DataFrame of students and grades
+A. ROHIT (192472035) - CSA65 Generative AI Lab
+======================================================================
+   Name  Marks Grade
+  Rohit     91     O
+   Asha     78    B+
+   Bala     66     B
+  Divya     85     A
+Karthik     54     C
+
+Class average: 74.8
+Top student : Rohit
+
+[exit code 0, 0.5s]

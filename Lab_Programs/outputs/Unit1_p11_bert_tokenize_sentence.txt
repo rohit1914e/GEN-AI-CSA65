@@ -1,0 +1,10 @@
+$ python Unit1/p11_bert_tokenize_sentence.py
+======================================================================
+P11 - Load the BERT tokenizer and tokenize a sentence
+A. ROHIT (192472035) - CSA65 Generative AI Lab
+======================================================================
+Sentence: Saveetha students are learning large language models.
+Tokens  : ['save', '##eth', '##a', 'students', 'are', 'learning', 'large', 'language', 'models', '.']
+With special tokens: ['[CLS]', 'save', '##eth', '##a', 'students', 'are', 'learning', 'large', 'language', 'models', '.', '[SEP]']
+
+[exit code 0, 5.0s]

@@ -1,0 +1,12 @@
+$ python Unit1/p08_bert_tokenizer.py
+======================================================================
+P8 - Tokenization using the BERT tokenizer
+A. ROHIT (192472035) - CSA65 Generative AI Lab
+======================================================================
+Sentence : Tokenization splits unbelievably long words into sub-words.
+Tokens   : ['token', '##ization', 'splits', 'un', '##bel', '##ie', '##va', '##bly', 'long', 'words', 'into', 'sub', '-', 'words', '.']
+Input IDs: [101, 19204, 3989, 19584, 4895, 8671, 2666, 3567, 6321, 2146, 2616, 2046, 4942, 1011, 2616, 1012, 102]
+Decoded  : [CLS] tokenization splits unbelievably long words into sub - words. [SEP]
+Vocabulary size: 30522
+
+[exit code 0, 5.6s]

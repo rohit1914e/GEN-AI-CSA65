@@ -1,0 +1,82 @@
+$ python Unit2/p04_leave_email.py
+======================================================================
+U2 P4 - Sick-leave email: zero / one / few-shot
+A. ROHIT (192472035) - CSA65 Generative AI Lab
+======================================================================
+
+--- ZERO-SHOT ---
+Subject: Request for Sick Leave: 26 - 27 November 2026 - A. Rohit
+
+Dear [Manager's Name],
+
+Please accept this email as a formal request for sick leave. I am currently running a fever and have been advised by my doctor to take some rest to recover fully. 
+
+Therefore, I will not be able to come to work from 26 November 2026 to 27 November 2026. I plan to resume my duties on 30 November 2026 [adjust date if 28-29 are weekend/working days]. 
+
+During my absence, I will ensure that any urgent matters are handed over to [Colleague's Name, optional], and I can be reached via email for emergencies, provided I am feeling better. 
+
+Thank you for your understanding.
+
+Best regards,
+
+A. Rohit  
+[Your Employee ID, optional]  
+[Your Designation, optional]
+
+--- ONE-SHOT ---
+Subject: Sick Leave Request - 26 & 27 November 2026
+
+Dear Manager,
+
+I am writing to request sick leave for 2 days, from 26 November to 27 November 2026, as I am suffering from a fever and have been advised by a doctor to rest. 
+
+I will ensure my urgent tasks are handed over before I leave and will check my email periodically if anything critical arises. 
+
+Kind regards,
+A. Rohit
+
+--- FEW-SHOT ---
+Subject: Sick Leave Request - 26 to 27 Nov 2026
+
+Dear Manager,
+
+I am writing to request sick leave for 2 days from 26 to 27 November 2026 due to a high fever. I will rest and recover, but I can be reached via email if any urgent matters arise.
+
+Best regards,
+A. Rohit
+
+=== Comparison ===
+Here is the comparison of the three emails based on tone, grammar, formatting, and completeness, scored on a scale of 1 to 5 (where 5 is the best).
+
+### Comparison Table
+
+| Criteria | Zero-Shot Email | One-Shot Email | Few-Shot Email |
+| :--- | :---: | :---: | :---: |
+| **Tone** (Professional & polite) | 5 | 5 | 4 |
+| **Grammar** (Correctness & flow) | 5 | 5 | 5 |
+| **Formatting** (Structure & placeholders) | 3 | 5 | 5 |
+| **Completeness** (All necessary details) | 5 | 4 | 3 |
+| **Total Score** | **18 / 20** | **19 / 20** | **17 / 20** |
+
+---
+
+### Detailed Breakdown
+
+*   **Zero-Shot:** 
+    *   *Pros:* Highly comprehensive, includes handover plans, return-to-work date, and contact boundaries.
+    *   *Cons:* Contains leftover instructional placeholders inside the text (e.g., `[adjust date if...]`, `[Colleague's Name, optional]`), which makes it look like a raw template rather than a ready-to-send email.
+*   **One-Shot:** 
+    *   *Pros:* Perfectly balanced. It is professional, concise, includes a handover mention, and requires no editing of awkward template brackets. 
+    *   *Cons:* Minor omission of the exact return-to-work date, though "for 2 days" implies it well enough.
+*   **Few-Shot:** 
+    *   *Pros:* Very clean, direct, and easy to read.
+    *   *Cons:* Lacks a mention of a handover plan or a colleague covering for them, which makes it slightly less complete for a workplace setting.
+
+---
+
+### **The Winner: ONE-SHOT**
+
+**Why it is the best:**
+The **One-Shot** email strikes the ideal balance between professionalism and conciseness. Unlike the Zero-Shot email, it doesn't leave clunky placeholder text that the user has to remember to delete or edit. Unlike the Few-Shot email, it still includes a responsible handover plan for urgent tasks, making it a polished, ready-to-send professional message.
+
+[exit code 0, 8.2s]

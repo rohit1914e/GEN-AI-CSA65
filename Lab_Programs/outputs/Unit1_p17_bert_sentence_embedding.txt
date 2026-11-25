@@ -1,0 +1,10 @@
+$ python Unit1/p17_bert_sentence_embedding.py
+======================================================================
+P17 - Contextual embeddings: 'bank' in two contexts
+A. ROHIT (192472035) - CSA65 Generative AI Lab
+======================================================================
+Embedding size: 768
+money-bank vs river-bank : 0.500
+money-bank vs loan-bank  : 0.811  (higher -> same meaning)
+
+[exit code 0, 7.6s]

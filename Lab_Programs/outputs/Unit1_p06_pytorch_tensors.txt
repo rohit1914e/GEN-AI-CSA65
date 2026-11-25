@@ -1,0 +1,24 @@
+$ python Unit1/p06_pytorch_tensors.py
+======================================================================
+P6 - PyTorch tensors, torch 2.15.0+cpu
+A. ROHIT (192472035) - CSA65 Generative AI Lab
+======================================================================
+a =
+ tensor([[1., 2.],
+        [3., 4.]])
+b =
+ tensor([[5., 6.],
+        [7., 8.]])
+a + b =
+ tensor([[ 6.,  8.],
+        [10., 12.]])
+a * b (element-wise) =
+ tensor([[ 5., 12.],
+        [21., 32.]])
+a @ b (matrix product) =
+ tensor([[19., 22.],
+        [43., 50.]])
+mean(a) = 2.5 | max(b) = 8.0
+Autograd: y = x^2 + 2x at x=3 -> dy/dx = 8.0
+
+[exit code 0, 1.7s]

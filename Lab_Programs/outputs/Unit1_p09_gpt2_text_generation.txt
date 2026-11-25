@@ -1,0 +1,11 @@
+$ python Unit1/p09_gpt2_text_generation.py
+======================================================================
+P9 - Text generation with GPT-2
+A. ROHIT (192472035) - CSA65 Generative AI Lab
+======================================================================
+Prompt   : Artificial intelligence will change engineering education by
+Generated: Artificial intelligence will change engineering education by creating new solutions to problems that have never existed before. And that means that we should be wary of new technology that disrupts the way we think about technology and what it means to us.
+
+
+
+[exit code 0, 78.2s]

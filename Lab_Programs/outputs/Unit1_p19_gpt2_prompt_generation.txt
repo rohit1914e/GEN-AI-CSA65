@@ -1,0 +1,13 @@
+$ python Unit1/p19_gpt2_prompt_generation.py
+======================================================================
+P19 - GPT-2 text from a user prompt
+A. ROHIT (192472035) - CSA65 Generative AI Lab
+======================================================================
+[1] Once upon a time, a robot in Chennai was found guilty of killing an elderly woman. The verdict was upheld by the Supreme Court in November.
+
+With the news that the guilty verdict was in, the civil society
+
+[2] Once upon a time, a robot in Chennai had just finished its journey to the city. The robot had passed through the city and entered the city. The robot had managed to enter the city through a number of different routes
+
+
+[exit code 0, 9.2s]

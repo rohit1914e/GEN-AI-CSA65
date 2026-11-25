@@ -1,0 +1,9 @@
+$ python Unit2/p08_huggingface_inference_api.py
+======================================================================
+U2 P8 - Text generation with the Hugging Face Inference API
+A. ROHIT (192472035) - CSA65 Generative AI Lab
+======================================================================
+Prompt: Write one sentence about the benefits of open-source AI models.
+HF_TOKEN not set in .env -> request not sent. Endpoint: https://router.huggingface.co/v1/chat/completions
+
+[exit code 0, 0.2s]

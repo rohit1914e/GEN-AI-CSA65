@@ -1,0 +1,18 @@
+$ python Unit2/p01_fitness_watch_description.py
+======================================================================
+U2 P1 - Product description: zero / one / few-shot
+A. ROHIT (192472035) - CSA65 Generative AI Lab
+======================================================================
+
+--- ZERO-SHOT (18 words) ---
+**Title:** Smart Fitness Watch
+**Key Features:** Heart-rate monitoring, SpO2 sensor, Built-in GPS, 10-day battery life
+**Price:** Rs. 4,999
+
+--- ONE-SHOT (22 words) ---
+Track every beat. Monitor your SpO2, navigate with built-in GPS, and enjoy 10 days of battery life - yours for Rs. 4,999.
+
+--- FEW-SHOT (19 words) ---
+Track your health, find your way. Heart-rate, SpO2, built-in GPS, and 10-day battery life - yours for Rs. 4,999.
+
+[exit code 0, 5.7s]

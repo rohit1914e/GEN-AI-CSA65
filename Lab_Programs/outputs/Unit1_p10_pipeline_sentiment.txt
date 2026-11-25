@@ -1,0 +1,11 @@
+$ python Unit1/p10_pipeline_sentiment.py
+======================================================================
+P10 - Sentiment analysis with pipeline()
+A. ROHIT (192472035) - CSA65 Generative AI Lab
+======================================================================
+POSITIVE 0.997 | I love how easy this phone is to use.
+NEGATIVE 1.000 | Worst customer service I have ever seen.
+POSITIVE 0.998 | The movie was okay, not great but not bad.
+POSITIVE 1.000 | Absolutely brilliant explanation by the professor!
+
+[exit code 0, 7.9s]

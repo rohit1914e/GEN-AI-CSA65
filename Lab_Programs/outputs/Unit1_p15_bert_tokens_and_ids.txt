@@ -1,0 +1,20 @@
+$ python Unit1/p15_bert_tokens_and_ids.py
+======================================================================
+P15 - BERT tokens and token IDs
+A. ROHIT (192472035) - CSA65 Generative AI Lab
+======================================================================
+Token           Token ID
+[CLS]           101
+chat            11834
+##gp            21600
+##t             2102
+generates       19421
+human           2529
+-               1011
+like            2066
+responses       10960
+.               1012
+[SEP]           102
+Attention mask: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+
+[exit code 0, 4.7s]
