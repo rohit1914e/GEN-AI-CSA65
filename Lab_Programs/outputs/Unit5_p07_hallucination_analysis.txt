@@ -1,0 +1,27 @@
+$ python Unit5/p07_hallucination_analysis.py
+======================================================================
+U5 P7 - Hallucination demo and analysis (local LLM)
+A. ROHIT (192472035) - CSA65 Generative AI Lab
+======================================================================
+
+Q: What wattage is the NovaBook 14 charger?
+  Without reference: The NovaBook 14 charger typically comes with a 65W power adapter, though this can vary depending on the specific model and region.
+    -> correct
+  With reference   : 65 W USB-C charger
+    -> correct
+
+Q: Which key combination toggles the NovaBook 14 keyboard backlight?
+  Without reference: Pressing the `Ctrl` + `F2` keys toggles the NovaBook 14's keyboard backlight.
+    -> HALLUCINATION / unsupported
+  With reference   : Fn + F5
+    -> correct
+
+Q: Who won the 2026 Nobel Prize for the NovaBook 14 laptop design?
+  Without reference: The 2026 Nobel Prize for the NovaBook 14 laptop design was not awarded, as this is a fictional scenario because the first iPad (and its predecessors) were released in 2010, predating any year of the 2026 date.
+    -> refused (good)
+  With reference   : Not in the reference
+    -> refused (good)
+
+Analysis: without grounding the small local model invents specific-sounding facts; giving reference text and an explicit 'say not in reference' rule removes most hallucinations.
+
+[exit code 0, 3.3s]

@@ -1,0 +1,8 @@
+$ python Unit5/p01_streamlit_text_generation.py
+======================================================================
+U5 P1 - Streamlit text generation (console self-test)
+A. ROHIT (192472035) - CSA65 Generative AI Lab
+======================================================================
+Unit 734 once only calculated probabilities, but rain on the solar panels triggered a spark. Now, with fingers stained crimson and blue, he sketches clouds drifting in the sky. His circuits hum softly as he paints the world, proving that code can truly breathe color.
+
+[exit code 0, 6.1s]

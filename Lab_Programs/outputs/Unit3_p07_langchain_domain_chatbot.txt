@@ -1,0 +1,16 @@
+$ python Unit3/p07_langchain_domain_chatbot.py
+======================================================================
+U3 P7 - Domain-specific HR chatbot with LangChain + FAISS
+A. ROHIT (192472035) - CSA65 Generative AI Lab
+======================================================================
+
+User: How many earned leaves can I carry forward?
+Bot : Up to 30 days of earned leave can be carried forward.
+
+User: Can I work from home?
+Bot : Yes, employees may work from home up to 2 days a week with manager approval.
+
+User: What is the dress code for Fridays?
+Bot : Based on the policy context provided, there is no mention of the dress code for Fridays.
+
+[exit code 0, 8.9s]

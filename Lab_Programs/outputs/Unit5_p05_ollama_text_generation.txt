@@ -1,0 +1,15 @@
+$ python Unit5/p05_ollama_text_generation.py
+======================================================================
+U5 P5 - Text generation through Ollama
+A. ROHIT (192472035) - CSA65 Generative AI Lab
+======================================================================
+Model: qwen3.5:2b | family: qwen35 | parameters: 1.9B | quantization: Q8_0
+Prompt: Write a 4-line poem about engineers building bridges. 
+Output (streamed): Steel beams stretch across the churning sea,
+Connecting distant lands with steady grace.
+The blueprint turns into stone upon the ground,
+As time flows on beneath their careful care.
+
+38 tokens in 0.6s = 62.1 tokens/s (total 0.7s)
+
+[exit code 0, 1.4s]

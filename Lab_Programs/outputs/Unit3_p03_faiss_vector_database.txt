@@ -1,0 +1,20 @@
+$ python Unit3/p03_faiss_vector_database.py
+======================================================================
+U3 P3 - FAISS vector database
+A. ROHIT (192472035) - CSA65 Generative AI Lab
+======================================================================
+Indexed 12 documents, dimension 384, saved to outputs/U3_P03_manuals.faiss
+
+Query: washing machine not draining water
+  0.757  SmartWash Pro Washing Machine - Troubleshooting
+  0.680  SmartWash Pro Washing Machine - Maintenance
+
+Query: forgot wifi admin password
+  0.646  AirLink AX3000 Wi-Fi Router - Troubleshooting
+  0.623  AirLink AX3000 Wi-Fi Router - Installation
+
+Query: laptop fan overheating
+  0.647  NovaBook 14 Laptop - Troubleshooting
+  0.571  NovaBook 14 Laptop - Maintenance
+
+[exit code 0, 2.2s]

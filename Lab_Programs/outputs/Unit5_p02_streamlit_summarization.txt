@@ -1,0 +1,12 @@
+$ python Unit5/p02_streamlit_summarization.py
+======================================================================
+U5 P2 - Streamlit summarization (console self-test)
+A. ROHIT (192472035) - CSA65 Generative AI Lab
+======================================================================
+*   **Hydraulic Press:** Low oil levels cause cavitation, while a relief valve set at 180 bar must be verified; air should be bled by cycling the ram three times.
+*   **Induction Motor:** Overheating results from blocked vents, voltage imbalances exceeding 2%, or motor overload; check current draw against the nameplate rating and ensure ambient temps stay below 40°C.
+*   **CNC Machine:** Poor surface finish is caused by worn cutting inserts, incorrect feed rates (reduce to 0.1 mm/rev), excessive tool overhang (>4x shank height), or spindle bearing play issues.
+
+235 words -> 88 words
+
+[exit code 0, 3.2s]

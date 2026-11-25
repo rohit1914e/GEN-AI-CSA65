@@ -1,0 +1,20 @@
+$ python Unit3/p04_chroma_storage_topk.py
+======================================================================
+U3 P4 - Document storage + top-k retrieval with ChromaDB
+A. ROHIT (192472035) - CSA65 Generative AI Lab
+======================================================================
+Stored documents: 11 (persistent at outputs/U3_P04_chroma_db)
+
+Query: What is the pass mark?  (top-1)
+  H4  similarity=0.682  Passing and Grading
+
+Query: rules inside the laboratory  (top-3)
+  H7  similarity=0.804  Laboratory Rules
+  H2  similarity=0.654  Examinations
+  H6  similarity=0.643  Discipline and Code of Conduct
+
+Query: can I bring my phone to the exam  (top-2)
+  H3  similarity=0.685  Malpractice in Examinations
+  H2  similarity=0.627  Examinations
+
+[exit code 0, 3.3s]

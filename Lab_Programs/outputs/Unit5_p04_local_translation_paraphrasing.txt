@@ -1,0 +1,16 @@
+$ python Unit5/p04_local_translation_paraphrasing.py
+======================================================================
+U5 P4 - Translation and paraphrasing with a local LLM
+A. ROHIT (192472035) - CSA65 Generative AI Lab
+======================================================================
+Original: Regular maintenance of machines reduces breakdowns and improves workplace safety. 
+
+French  : L'entretien régulier des machines réduit les pannes et améliore la sécurité au travail.
+Hindi   : मशीनों का नियमित रखरखाव विफलताओं को कम करता है और कार्यस्थल की सुरक्षा सुधारता है।
+Tamil   : சாதாரண கட்டுப்பாடுகள் மின்னல்களைக் குறைக்கின்றன மற்றும் பணிநிலை பாதுகாப்பை மேம்படுத்தும்.
+
+Paraphrase (simpler words for a school student): Keeping machines well-maintained stops them from breaking and makes the work place safer.
+Paraphrase (formal business tone): Implementing a rigorous maintenance program for machinery significantly minimizes downtime, enhances operational reliability, and safeguards employee well-being.
+Paraphrase (a single short sentence of max 8 words): Regular machine maintenance prevents breakdowns and ensures workplace safety.
+
+[exit code 0, 3.3s]

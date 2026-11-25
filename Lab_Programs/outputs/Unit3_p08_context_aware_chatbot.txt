@@ -1,0 +1,19 @@
+$ python Unit3/p08_context_aware_chatbot.py
+======================================================================
+U3 P8 - Context-aware chatbot (chat history + retrieval)
+A. ROHIT (192472035) - CSA65 Generative AI Lab
+======================================================================
+
+User: What is paging?
+  (standalone: What is paging?)
+Bot : Paging is a memory-management scheme that divides physical memory into fixed-size frames and logical memory into pages of the same size. It allows any page to be placed in any available free frame, which eliminates external fragmentation.
+
+User: What problem does it remove?
+  (standalone: What problem does paging remove?)
+Bot : Based on the context, paging removes external fragmentation, although the last page of a process may still suffer from internal fragmentation.
+
+User: And which replacement algorithm suffers from Belady's anomaly?
+  (standalone: Which page replacement algorithm suffers from Belady's anomaly?)
+Bot : Based on the context, the FIFO (First-In, First-Out) page replacement algorithm suffers from Belady's anomaly. This anomaly occurs when adding more frames actually increases the number of page faults.
+
+[exit code 0, 29.5s]

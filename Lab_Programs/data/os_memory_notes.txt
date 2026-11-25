@@ -1,0 +1,14 @@
+Paging
+Paging divides physical memory into fixed-size frames and logical memory into pages of the same size. Any page can be placed in any free frame, so paging removes external fragmentation, although the last page of a process may suffer internal fragmentation. A logical address is split into a page number and a page offset.
+
+Page Tables and the TLB
+A page table stores the frame number for every page of a process. The page number indexes the page table to find the frame, and the frame number combined with the offset gives the physical address. Because each access then needs two memory reads, a Translation Lookaside Buffer (TLB) caches recent page-table entries; a TLB hit avoids the extra read. Effective access time = hit ratio x (TLB + memory) + miss ratio x (TLB + 2 x memory).
+
+Virtual Memory and Demand Paging
+Virtual memory lets a process run even when only part of it is in RAM, so programs can be larger than physical memory. With demand paging a page is loaded only when it is referenced. Referencing a page that is not in memory causes a page fault; the OS finds the page on disk, loads it into a free frame, updates the page table and restarts the instruction. Too many page faults lead to thrashing.
+
+FIFO Page Replacement
+When no frame is free, a page replacement algorithm chooses a victim page. FIFO replaces the page that has been in memory the longest, using a queue. It is simple but can suffer from Belady's anomaly, where adding more frames increases page faults. Example: reference string 7,0,1,2,0,3,0,4 with 3 frames gives 7 page faults under FIFO.
+
+LRU and Optimal Page Replacement
+Optimal replacement removes the page that will not be used for the longest time in the future; it gives the minimum faults but cannot be implemented in practice. LRU (Least Recently Used) replaces the page not used for the longest time in the past and approximates optimal; it does not suffer from Belady's anomaly.

@@ -1,0 +1,41 @@
+$ python Unit5/p10_local_rag_troubleshooting.py
+======================================================================
+U5 P10 - Local RAG troubleshooting assistant (step-by-step)
+A. ROHIT (192472035) - CSA65 Generative AI Lab
+======================================================================
+
+Problem  : The hydraulic press is noisy and not building pressure
+Retrieved: ['Hydraulic Press - Low Pressure If the hydraul...', 'an 4 times the shank height and verify spindl...']
+1. **Check Oil Level**: Inspect the hydraulic reservoir oil level immediately, as low oil causes cavitation and noise. If the level is below the minimum mark, add hydraulic oil until it reaches the proper level.
+2. **Inspect Suction Filter**: Locate the suction filter on the press's intake line. Visually inspect for clogging or debris; if dirty, clean it thoroughly or replace it with a new one to restore flow and pressure.
+3. **Verify Relief Valve Setting**: Check the relief valve adjustment against the manual specification of 180 bar. If the setting is incorrect, adjust it using the provided tools to ensure the system can build the required pressure without tripping.
+4. **Bleed Air from System**: Cycle the ram three times at low speed to manually pump out trapped air in the hydraulic lines and cylinders, which often causes noise and prevents pressure buildup.
+5. **Verify Spindle Bearing Play**: After addressing mechanical issues, check the spindle bearing play using a dial indicator or feeler gauge as specified in the manual to ensure smooth operation and prevent future noise.
+
+**Safety Note**: Always disconnect power and relieve hydraulic pressure before performing any maintenance on the press. Wear appropriate PPE (gloves, safety glasses) when handling oil and mechanical components.
+
+Problem  : Our CNC lathe parts have a rough surface finish
+Retrieved: ['ubrication and ensure the ambient temperature...', 'e subnet (192.168.1.x) and restart the commun...']
+Based on the manual provided and your specific problem (rough surface finish on a CNC lathe), here are the numbered troubleshooting steps:
+
+1.  **Verify Ambient Temperature**: Ensure the machine room temperature is below 40°C, as high temperatures can affect tool life and machining stability.
+2.  **Inspect Cutting Inserts**: Check if the cutting inserts are worn out; replace them immediately if they show signs of wear or damage.
+3.  **Adjust Feed Rate**: Reduce the feed rate to a finishing setting of **0.1 mm/rev** to minimize vibration and improve surface quality.
+4.  **Check Tool Overhang**: Verify that the tool overhang is less than **4 times the shank height**, as excessive overhang can cause vibration leading to poor finishes.
+5.  **Verify Spindle Play**: Check the spindle bearing play to ensure there is no excessive vibration or runout affecting the cutting surface.
+
+**Safety Note:** Always disconnect power and lock out/tag out (LOTO) the machine before performing any maintenance, tool replacement, or adjustment to prevent accidental startup and injury.
+
+Problem  : Robot welds are full of tiny holes
+Retrieved: ['e subnet (192.168.1.x) and restart the commun...', 'ubrication and ensure the ambient temperature...']
+Based on the manual provided and the specific problem (tiny holes in robot welds), here are the numbered troubleshooting steps:
+
+1. **Verify Shielding Gas Flow**: Set the gas flow to 15-20 L/min as specified in the manual, then restart the communication driver to ensure the system registers the new setting.
+2. **Inspect Base Metal and Nozzle**: Clean any oil or rust from the joint area and check the nozzle for spatter; if found, replace it immediately. Ensure the cell is shielded from external drafts.
+3. **Check Ambient Conditions**: Confirm that the ambient temperature remains below 40°C to prevent thermal distortion affecting weld quality.
+4. **Inspect Welding Rods**: Verify that the welding rods are clean and free of contaminants (oil, rust, or slag) before use.
+5. **Review Process Parameters**: If the above steps do not resolve the issue, reduce the feed rate to 0.1 mm/rev for finishing passes and verify spindle bearing play to minimize vibration.
+
+**Safety Note:** Always ensure the welding cell is properly grounded and shielded from drafts during operation. Do not operate the machine if the ambient temperature exceeds 40°C or if the gas flow is set below the minimum required value.
+
+[exit code 0, 16.7s]

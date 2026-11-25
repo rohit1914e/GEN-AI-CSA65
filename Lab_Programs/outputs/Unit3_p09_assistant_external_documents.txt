@@ -1,0 +1,29 @@
+$ python Unit3/p09_assistant_external_documents.py
+======================================================================
+U3 P9 - AI assistant over external documents
+A. ROHIT (192472035) - CSA65 Generative AI Lab
+======================================================================
+Knowledge base: 9 documents, 87 chunks
+
+Q: What should I do if the hydraulic press has low pressure?
+Sources: ['engineering_troubleshooting.txt']
+A: If the hydraulic press does not build pressure, you should take the following steps:
+
+1. Check the oil level in the reservoir first [engineering_troubleshooting.txt].
+2. Inspect the suction filter for clogging and clean or replace it [engineering_troubleshooting.txt].
+3. Check the relief valve setting, which should be 180 bar [engineering_troubleshooting.txt].
+4. Bleed air from the system by cycling the ram three times at low speed [engineering_troubleshooting.txt].
+
+Q: What is the hostel fee?
+Sources: ['college_faq.txt']
+A: Based on the provided documents, the hostel fee is Rs. 95,000 per year for a shared room including food [college_faq.txt].
+
+Q: How do I fix router internet LED orange?
+Sources: ['product_manuals.txt']
+A: To fix an orange internet LED (which indicates the router has no internet), you should restart the modem and router, and check the WAN cable [product_manuals.txt].
+
+Q: Who is the Prime Minister?
+Sources: []
+A: I could not find this in the documents.
+
+[exit code 0, 52.1s]

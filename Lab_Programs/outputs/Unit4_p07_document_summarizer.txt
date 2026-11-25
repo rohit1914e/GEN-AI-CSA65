@@ -1,0 +1,15 @@
+$ python Unit4/p07_document_summarizer.py
+======================================================================
+U4 P7 - Engineering document summarizer
+A. ROHIT (192472035) - CSA65 Generative AI Lab
+======================================================================
+Original: 917 words
+Summary : 87 words (compression 9%)
+
+* **Industrial Equipment:** Set hydraulic relief to 180 bar, compressor cut-out to 8 bar, and shielding gas to 15-20 L/min.
+* **SmartWash Pro:** Handles up to 8 kg, requires 230 V power, drains at 60-100 cm, and uses 90 °C cleaning.
+* **AirLink Router:** Uses 192.168.0.1 for setup, features dual bands, and requires a 10-second factory reset.
+* **NovaBook 14:** Powered by a 65 W adapter with an 80% battery limit option.
+* **General Maintenance:** Perform routine checks on filters, firmware, and cooling vents across all devices.
+
+[exit code 0, 3.2s]

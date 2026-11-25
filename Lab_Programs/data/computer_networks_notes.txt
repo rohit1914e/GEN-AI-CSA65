@@ -1,0 +1,14 @@
+TCP Three-Way Handshake
+TCP is connection oriented. A connection is opened with a three-way handshake: the client sends SYN, the server replies SYN-ACK, and the client sends ACK. Connections are closed with a four-step FIN/ACK exchange.
+
+TCP Flow Control
+Flow control prevents a fast sender from overwhelming a slow receiver. TCP uses a sliding window: the receiver advertises how many bytes it can accept and the sender never has more unacknowledged data than this window.
+
+TCP Congestion Control
+Congestion control protects the network. TCP starts with slow start, doubling the congestion window every round trip, then switches to congestion avoidance with linear growth. On packet loss the window is reduced (multiplicative decrease).
+
+UDP
+UDP is connectionless and unreliable but has very low overhead: there is no handshake, no retransmission and no ordering. It suits real-time applications such as video calls, online games, DNS lookups and live streaming.
+
+Ports and Sockets
+Transport-layer port numbers identify applications on a host: HTTP uses 80, HTTPS 443, SSH 22 and DNS 53. A socket is the combination of an IP address and a port, and a TCP connection is identified by a pair of sockets.

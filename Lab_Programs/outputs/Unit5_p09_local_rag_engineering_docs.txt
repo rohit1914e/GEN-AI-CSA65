@@ -1,0 +1,33 @@
+$ python Unit5/p09_local_rag_engineering_docs.py
+======================================================================
+U5 P9 - Local RAG: engineering notes + FAISS + Ollama
+A. ROHIT (192472035) - CSA65 Generative AI Lab
+======================================================================
+Indexed chunks: 34
+
+Q: What is the TLB and why is it used?
+Retrieved: [('os_memory_notes.txt', 0.75), ('os_memory_notes.txt', 0.68), ('os_memory_notes.txt', 0.67)]
+A: Based on the provided context, here is the answer:
+
+**What is the TLB?**
+The Translation Lookaside Buffer (TLB) is a hardware component that caches recent page-table entries. It stores information about how virtual addresses are mapped to physical addresses so that the CPU does not need to constantly look up this data in main memory.
+
+**Why is it used?**
+It is used to avoid the extra read time associated with accessing the page table. The context explains that a TLB hit allows the system to use the cached entry directly, whereas a miss requires two memory reads (one for the TLB and one for the actual data). This significantly improves the effective access time of memory operations.
+
+Q: How does TCP slow start work?
+Retrieved: [('computer_networks_notes.txt', 0.8), ('computer_networks_notes.txt', 0.77), ('computer_networks_notes.txt', 0.7)]
+A: Based on the provided context, TCP slow start works by having the sender **start with a small window** and then **doubling the congestion window every round trip** until it reaches the threshold where packet loss occurs.
+
+Source file: [computer_networks_notes.txt]
+
+Q: How do I clean the washing machine drum?
+Retrieved: [('product_manuals.txt', 0.81), ('product_manuals.txt', 0.68), ('product_manuals.txt', 0.67)]
+A: Based on the provided context, there is no specific instruction detailing how to clean the **drum** itself (e.g., removing it or cleaning inside). The manual only instructs you to clean the **drain pump filter**, which is located behind the bottom-right flap.
+
+Source file: [product_manuals.txt]
+
+Q: What is the boiling point of mercury?
+A: Not covered by the local documents (best similarity 0.49).
+
+[exit code 0, 16.3s]

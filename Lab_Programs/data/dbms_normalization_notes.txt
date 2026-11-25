@@ -1,0 +1,14 @@
+Functional Dependency
+A functional dependency X -> Y means the value of X uniquely determines the value of Y. Keys are found from functional dependencies: a candidate key is a minimal set of attributes that determines all other attributes.
+
+First and Second Normal Form
+A table is in 1NF when every attribute holds atomic values and there are no repeating groups. It is in 2NF when it is in 1NF and no non-key attribute depends on only part of a composite primary key. Example: in (StudentID, CourseID, StudentName), StudentName depends only on StudentID, so the table violates 2NF.
+
+Third Normal Form and BCNF
+A table is in 3NF when it is in 2NF and no non-key attribute depends transitively on the key. BCNF is stricter: for every functional dependency X -> Y, X must be a super key. Decomposing a table into 3NF or BCNF removes update, insertion and deletion anomalies.
+
+Anomalies in Unnormalized Tables
+Redundant data causes anomalies. An update anomaly happens when the same fact must be changed in many rows, an insertion anomaly when a fact cannot be stored without unrelated data, and a deletion anomaly when deleting a row loses other useful information.
+
+Lossless Decomposition
+A decomposition of R into R1 and R2 is lossless if joining R1 and R2 gives back exactly R. This holds when the common attributes form a key of R1 or R2. A dependency-preserving decomposition keeps every functional dependency checkable without joins.

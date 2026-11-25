@@ -1,0 +1,34 @@
+$ python Unit2/p12_prompt_evaluation_refinement.py
+======================================================================
+U2 P12 - Prompt evaluation and refinement
+A. ROHIT (192472035) - CSA65 Generative AI Lab
+======================================================================
+P1 (bare)        total=25/25  rel=5 acc=5 comp=5 clar=5 fmt=5 words=282 | The response is exceptionally well-tailored for first-year engineering
+P2 (audience)    total=25/25  rel=5 acc=5 comp=5 clar=5 fmt=5 words=535 | The response is exceptionally well-tailored for first-year engineering
+P3 (structured)  total=25/25  rel=5 acc=5 comp=5 clar=5 fmt=5 words=123 | The response is perfectly tailored for first-year engineering students
+
+Best prompt: P1 (bare)
+
+Refined prompt:
+Explain what an API is tailored specifically for first-year engineering students. Structure your response strictly using the following format:
+
+1. **Definition:** A clear, concise definition of an API.
+2. **Analogy:** A classic, easy-to-understand analogy illustrating how an API works.
+3. **Real-World Example:** A relatable, practical example of an API in use.
+4. **Engineering Value:** A bulleted list explaining why APIs are valuable in engineering, focusing strictly on efficiency, integration, and automation.
+
+Refined total = 25/25 (was 25/25)
+
+Refined response:
+1. **Definition:** An API (Application Programming Interface) is a set of defined rules, protocols, and tools that allows two different software systems or hardware components to communicate and exchange data with each other.
+
+2. **Analogy:** Think of an API like a waiter in a restaurant. You (the client) are sitting at a table looking at the menu, and the kitchen (the server) is where your food is prepared. Because you cannot walk straight into the kitchen to cook your meal, you give your order to the waiter. The waiter takes your request to the kitchen, waits for the food to be cooked, and then brings the finished meal back to your table. The API is the waiter—it takes your request, delivers it to the system, and brings the response back to you.
+
+3. **Real-World Example:** When you use a weather app on your smartphone to check the forecast, the app is not generating its own meteorological data. Instead, it uses a weather service API (like OpenWeatherMap) to send a request to a massive server farm, asking for the current temperature and conditions in your specific zip code. The server processes this data and sends it back through the API so your app can display it on your screen.
+
+4. **Engineering Value:**
+   * **Efficiency:** Engineers save massive amounts of time by not having to reinvent the wheel; instead of writing custom code to handle complex tasks (like payment processing or mapping), they can plug in an existing API and build upon a pre-made foundation.
+   * **Integration:** APIs act as universal translators, allowing disparate software systems, databases, and hardware devices developed in different languages or by different companies to seamlessly work together as a cohesive unit.
+   * **Automation:** APIs enable systems to communicate autonomously without human intervention, allowing engineers to set up automated pipelines—such as automatically triggering data logs, running automated tests, or deploying code whenever a specific event occurs.
+
+[exit code 0, 28.8s]

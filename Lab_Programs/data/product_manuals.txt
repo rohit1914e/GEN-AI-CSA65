@@ -1,0 +1,35 @@
+SmartWash Pro Washing Machine - Installation
+Place the SmartWash Pro on a firm, level floor and remove the four transit bolts at the back before first use. Connect the inlet hose to a cold-water tap, place the drain hose at a height of 60-100 cm and plug into a grounded 230 V socket.
+
+SmartWash Pro Washing Machine - Usage
+Load up to 8 kg of laundry, add detergent to drawer II, select a programme such as Cotton 40 C, Quick 15 or Wool, and press Start. Use the Delay Start button to finish the wash up to 24 hours later. Child Lock is enabled by holding Temp and Spin for 3 seconds.
+
+SmartWash Pro Washing Machine - Maintenance
+Clean the drain pump filter behind the bottom-right flap every month. Run the Drum Clean programme at 90 C without laundry once every 40 washes, wipe the door seal after each wash and leave the door open to prevent odour.
+
+SmartWash Pro Washing Machine - Troubleshooting
+Error E21 means the water is not draining: clean the drain filter and check the hose for kinks. Error E10 means no water intake: open the tap and check water pressure. Strong vibration during spin usually means the transit bolts were not removed or the machine is not level.
+
+AirLink AX3000 Wi-Fi Router - Installation
+Connect the modem to the blue WAN port with the supplied Ethernet cable and power on the router. Join the Wi-Fi network printed on the label, open 192.168.0.1 in a browser and follow the Quick Setup wizard to choose your internet type and set a new admin password.
+
+AirLink AX3000 Wi-Fi Router - Usage
+The router broadcasts 2.4 GHz and 5 GHz bands; enable Smart Connect to use a single network name. Create a guest network under Wireless > Guest, and use Parental Controls to set time limits for devices.
+
+AirLink AX3000 Wi-Fi Router - Maintenance
+Check for firmware updates monthly under System > Firmware Upgrade and never power off during an update. Keep the router in a ventilated place away from microwaves, and reboot it once a week for best performance.
+
+AirLink AX3000 Wi-Fi Router - Troubleshooting
+If the internet LED is orange, the router has no internet: restart the modem and router and check the WAN cable. If you forgot the admin password, press the Reset button for 10 seconds to restore factory settings. Slow Wi-Fi can be fixed by changing the channel or moving closer to the router.
+
+NovaBook 14 Laptop - First-time Setup
+Charge the NovaBook 14 fully with the 65 W USB-C adapter before first use. Press the power button, choose your region and keyboard, connect to Wi-Fi and sign in to create a user account. Install pending Windows updates and the NovaCare driver package.
+
+NovaBook 14 Laptop - Usage
+Press Fn + F5 to toggle the keyboard backlight and Fn + F11 to switch performance modes. The fingerprint reader in the power button supports Windows Hello login. Battery Saver mode extends battery life up to 12 hours.
+
+NovaBook 14 Laptop - Maintenance
+Clean the screen with a dry microfibre cloth and blow dust out of the air vents every three months. Avoid keeping the battery at 100% for long periods; enable the 80% charge limit in NovaCare to extend battery lifespan.
+
+NovaBook 14 Laptop - Troubleshooting
+If the laptop does not turn on, connect the charger and hold the power button for 15 seconds to perform a hard reset. If it overheats, clean the vents and use it on a hard surface. For no sound, update the audio driver from NovaCare.

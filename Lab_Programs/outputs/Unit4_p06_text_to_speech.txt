@@ -1,0 +1,9 @@
+$ python Unit4/p06_text_to_speech.py
+======================================================================
+U4 P6 - Text-to-Speech (Gemini TTS)
+A. ROHIT (192472035) - CSA65 Generative AI Lab
+======================================================================
+Text : The load test on the steel bridge was successful. Maximum deflection was twelve millimetres, which is within the permitted limit.
+Audio: outputs/U4_P06_speech.wav  (7.5 seconds, 24 kHz mono WAV)
+
+[exit code 0, 27.2s]

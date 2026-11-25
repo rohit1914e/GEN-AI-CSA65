@@ -1,0 +1,29 @@
+$ python Unit3/p10_multi_document_assistant.py
+======================================================================
+U3 P10 - Multi-document assistant (PDF + DOCX + TXT)
+A. ROHIT (192472035) - CSA65 Generative AI Lab
+======================================================================
+Loaded U3_P10_product_manuals.pdf         3374 chars
+Loaded U3_P10_hr_policy.docx              2220 chars
+Loaded U3_P10_troubleshooting.txt         1895 chars
+
+Q: How many sick leaves do employees get?
+A: Based on the provided document, employees get 10 days of sick leave per calendar year [U3_P10_hr_policy.docx].
+
+Q: What does washing machine error E10 mean?
+A: Error E10 means there is no water intake [U3_P10_product_manuals.pdf].
+
+Q: How to fix porosity in robotic welds?
+A: To fix porosity in robotic MIG welds, you should:
+* Set the gas flow to 15-20 L/min [U3_P10_troubleshooting.txt].
+* Clean oil and rust from the joint [U3_P10_troubleshooting.txt].
+* Check the nozzle for spatter [U3_P10_troubleshooting.txt].
+* Shield the cell from fans [U3_P10_troubleshooting.txt].
+
+Q: Compare the notice period with the laptop battery tip
+A: Based on the provided documents:
+
+* **Laptop battery tips:** To extend battery life, you can enable Battery Saver mode (which extends battery life up to 12 hours) and avoid keeping the battery at 100% for long periods by enabling the 80% charge limit in NovaCare [U3_P10_product_manuals.pdf].
+* **Notice period:** This topic is **not covered** in the provided documents.
+
+[exit code 0, 22.4s]

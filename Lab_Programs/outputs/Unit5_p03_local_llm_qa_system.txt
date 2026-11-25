@@ -1,0 +1,19 @@
+$ python Unit5/p03_local_llm_qa_system.py
+======================================================================
+U5 P3 - Question answering app with a local LLM
+A. ROHIT (192472035) - CSA65 Generative AI Lab
+======================================================================
+
+Q: What is the minimum attendance?
+A: Students must maintain at least 75% attendance in every course. Students with 65-74% attendance may be condoned on medical grounds, but those below 65% must repeat the course.
+
+Q: How many books can I borrow from the library?
+A: Undergraduate students may borrow 4 books for 14 days, but a fine of Rs. 2 per day is charged for late return. Reference books cannot be taken out.
+
+Q: Are smart watches allowed in exams?
+A: No, possessing a smart watch is treated as malpractice in the exam hall and will result in the cancellation of that exam or all exams of the semester.
+
+Q: What is the canteen menu?
+A: Not in the handbook.
+
+[exit code 0, 3.2s]

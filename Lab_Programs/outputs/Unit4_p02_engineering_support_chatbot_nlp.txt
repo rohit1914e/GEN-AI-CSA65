@@ -1,0 +1,32 @@
+$ python Unit4/p02_engineering_support_chatbot_nlp.py
+======================================================================
+U4 P2 - Engineering-support chatbot (TF-IDF NLP)
+A. ROHIT (192472035) - CSA65 Generative AI Lab
+======================================================================
+Vocabulary size: 330 | knowledge entries: 6
+
+User : my motor is getting too hot
+Tokens: motor gett hot
+Bot  : [Induction Motor - Overheating] (score 0.20)
+       An induction motor that overheats usually has blocked cooling vents, overload or a supply voltage imbalance above 2 percent. Measure the current on all three phases and compare with the nameplate rating. Clean the fan cover, check bearing lubrication and ensure the ambient temperature is below 40 C.
+
+User : welds have small holes / porosity
+Tokens: weld small hol porosity
+Bot  : [Welding Robot - Porosity in Welds] (score 0.40)
+       Porosity in robotic MIG welds is caused by insufficient shielding gas flow, contaminated base metal or drafts. Set the gas flow to 15-20 L/min, clean oil and rust from the joint, check the nozzle for spatter and shield the cell from fans.
+
+User : PLC not talking to the HMI screen
+Tokens: plc talk hmi screen
+Bot  : [PLC - Communication Error] (score 0.39)
+       A PLC communication error with the HMI is usually caused by a loose Ethernet cable, a wrong IP address or a mismatched baud rate on serial links. Ping the PLC from the HMI network, confirm both devices are in the same subnet (192.168.1.x) and restart the communication driver.
+
+User : compressor keeps tripping
+Tokens: compressor keep tripp
+Bot  : [Air Compressor - Frequent Tripping] (score 0.24)
+       If the air compressor trips frequently, check the pressure switch cut-out setting (8 bar), clean the intake air filter and check for leaks in the receiver drain valve. A thermal overload trip indicates the motor is overloaded; check the belt tension and the condition of the unloader valve.
+
+User : how do I bake a cake
+Tokens: bake cake
+Bot  : Sorry, I have no solution for that (best score 0.00).
+
+[exit code 0, 1.6s]

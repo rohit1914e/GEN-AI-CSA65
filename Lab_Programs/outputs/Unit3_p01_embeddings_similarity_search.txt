@@ -1,0 +1,18 @@
+$ python Unit3/p01_embeddings_similarity_search.py
+======================================================================
+U3 P1 - Text embeddings + semantic similarity search (BAAI/bge-small-en-v1.5)
+A. ROHIT (192472035) - CSA65 Generative AI Lab
+======================================================================
+Embedding matrix shape: (6, 384) | first 5 dims of S1: [0.03099999949336052, -0.010999999940395355, 0.003000000026077032, 0.06599999964237213, -0.03700000047683716]
+
+Query: a small cat lying on carpet
+  0.798  A kitten is resting on a rug.
+  0.709  The cat sat on the mat.
+  0.384  Dogs love playing fetch.
+
+Query: financial losses in shares
+  0.811  Investors lost money in the market crash.
+  0.739  Stock prices fell sharply today.
+  0.573  The football match ended in a draw.
+
+[exit code 0, 1.5s]

@@ -1,0 +1,13 @@
+$ python Unit2/p11_compare_shot_prompting.py
+======================================================================
+U2 P11 - Zero vs One vs Few-shot: measured comparison
+A. ROHIT (192472035) - CSA65 Generative AI Lab
+======================================================================
+Style       Accuracy  Format OK  Consistency
+zero-shot       100%       100%         100%
+one-shot        100%       100%         100%
+few-shot        100%       100%         100%
+
+Accuracy = correct label (first run); Format OK = valid JSON; Consistency = same answer in all 3 runs.
+
+[exit code 0, 191.3s]

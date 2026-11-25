@@ -1,0 +1,10 @@
+$ python Unit4/p05_speech_to_text.py
+======================================================================
+U4 P5 - Speech-to-Text with Whisper
+A. ROHIT (192472035) - CSA65 Generative AI Lab
+======================================================================
+Audio: U4_P06_speech.wav | duration 7.5s | detected language en
+[  0.0s -   2.8s] The load test on the steel bridge was successful.
+[  2.8s -   7.4s] Maximum deflection was 12mm, which is within the permitted limit.
+
+[exit code 0, 7.5s]

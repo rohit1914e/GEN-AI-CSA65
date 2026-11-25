@@ -1,0 +1,22 @@
+$ python Unit3/p02_cosine_semantic_search.py
+======================================================================
+U3 P2 - Cosine-similarity semantic search over academic documents
+A. ROHIT (192472035) - CSA65 Generative AI Lab
+======================================================================
+
+Query: How do computers decide which process runs next?
+  cos=0.737  Process Scheduling in Operating Systems
+  cos=0.669  Deadlocks
+  cos=0.597  Data Structures: Trees and Graphs
+
+Query: secure communication with keys
+  cos=0.714  Network Security and Cryptography
+  cos=0.569  Data Structures: Trees and Graphs
+  cos=0.534  TCP/IP Model
+
+Query: grouping unlabeled data
+  cos=0.720  Unsupervised Learning and Clustering
+  cos=0.577  Database Normalization
+  cos=0.576  SQL Joins and Queries
+
+[exit code 0, 2.0s]

@@ -1,0 +1,35 @@
+Supervised Machine Learning
+Supervised learning trains a model on labelled examples so it can predict outputs for new inputs. Regression predicts continuous values and classification predicts categories. Common algorithms are linear regression, decision trees, support vector machines and neural networks.
+
+Unsupervised Learning and Clustering
+Unsupervised learning finds structure in unlabelled data. K-means groups points around centroids, hierarchical clustering builds a dendrogram, and PCA reduces dimensionality by projecting data onto directions of maximum variance.
+
+Database Normalization
+Normalization organises relational tables to reduce redundancy. First normal form removes repeating groups, second normal form removes partial dependency on a composite key, third normal form removes transitive dependency, and BCNF requires every determinant to be a candidate key.
+
+SQL Joins and Queries
+SQL joins combine rows from two tables. An inner join returns matching rows, a left join keeps all rows of the left table, and a full outer join keeps all rows of both. GROUP BY with aggregate functions such as COUNT and SUM summarises data.
+
+Process Scheduling in Operating Systems
+The CPU scheduler chooses which ready process runs next. First-come-first-served is simple, shortest job first minimises average waiting time, round robin gives each process a time quantum, and priority scheduling can cause starvation that ageing prevents.
+
+Deadlocks
+A deadlock occurs when processes wait forever for resources held by each other. The four Coffman conditions are mutual exclusion, hold and wait, no preemption and circular wait. The Banker's algorithm avoids deadlock by checking for a safe state.
+
+TCP/IP Model
+The TCP/IP model has four layers: link, internet, transport and application. IP routes packets between networks, TCP provides reliable ordered delivery with a three-way handshake, and UDP offers fast connectionless delivery for streaming and DNS.
+
+Network Security and Cryptography
+Symmetric encryption such as AES uses one shared key, while asymmetric encryption such as RSA uses a public and private key pair. Hash functions like SHA-256 ensure integrity, and digital signatures provide authentication and non-repudiation.
+
+Data Structures: Trees and Graphs
+A binary search tree keeps smaller keys on the left and larger keys on the right, giving O(log n) search when balanced. Graphs are traversed with breadth-first search using a queue or depth-first search using a stack; Dijkstra's algorithm finds shortest paths.
+
+Sorting Algorithms
+Bubble sort and insertion sort run in O(n^2). Merge sort divides the array, sorts halves and merges them in O(n log n). Quick sort partitions around a pivot and is O(n log n) on average but O(n^2) in the worst case.
+
+Cloud Computing Service Models
+Cloud computing delivers resources on demand. IaaS provides virtual machines and storage, PaaS provides a managed platform for deploying applications, and SaaS delivers complete software over the internet. Elastic scaling lets resources grow with load.
+
+Transformers and Large Language Models
+Transformers use self-attention to weigh every token against every other token, allowing parallel training. Large language models such as GPT are pre-trained on huge text corpora to predict the next token and then fine-tuned or prompted for tasks.

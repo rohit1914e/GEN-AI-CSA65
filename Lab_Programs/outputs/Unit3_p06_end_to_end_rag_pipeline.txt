@@ -1,0 +1,20 @@
+$ python Unit3/p06_end_to_end_rag_pipeline.py
+======================================================================
+U3 P6 - End-to-end RAG pipeline
+A. ROHIT (192472035) - CSA65 Generative AI Lab
+======================================================================
+1. Loaded: {'computer_networks_notes.txt': 1202, 'dbms_normalization_notes.txt': 1437, 'os_memory_notes.txt': 1931} characters
+2. Chunks: 18 (400 chars, 80 overlap)
+3. Embeddings: (18, 384) -> 4. FAISS index with 18 vectors
+
+5. Retrieved for 'How does TCP avoid congestion?': [('computer_networks_notes.txt', 0.79), ('computer_networks_notes.txt', 0.79), ('computer_networks_notes.txt', 0.7)]
+6. Answer: Based on the provided context, TCP avoids congestion by starting with slow start (doubling the congestion window every round trip), switching to congestion avoidance with linear growth, and reducing the window (multiplicative decrease) upon packet loss.
+
+**Source file:** computer_networks_notes.txt
+
+5. Retrieved for 'When is a table in BCNF?': [('dbms_normalization_notes.txt', 0.77), ('dbms_normalization_notes.txt', 0.75), ('dbms_normalization_notes.txt', 0.72)]
+6. Answer: Based on the provided text, a table is in BCNF (Boyce-Codd Normal Form) when, for every functional dependency $X \to Y$, $X$ must be a super key.
+
+**Source file:** dbms_normalization_notes.txt
+
+[exit code 0, 8.1s]

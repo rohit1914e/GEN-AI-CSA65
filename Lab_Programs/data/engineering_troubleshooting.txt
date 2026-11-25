@@ -1,0 +1,17 @@
+Hydraulic Press - Low Pressure
+If the hydraulic press does not build pressure, check the oil level in the reservoir first. Low oil causes cavitation and noise. Inspect the suction filter for clogging and clean or replace it. Check the relief valve setting; it should be 180 bar. Bleed air from the system by cycling the ram three times at low speed.
+
+Induction Motor - Overheating
+An induction motor that overheats usually has blocked cooling vents, overload or a supply voltage imbalance above 2 percent. Measure the current on all three phases and compare with the nameplate rating. Clean the fan cover, check bearing lubrication and ensure the ambient temperature is below 40 C.
+
+CNC Machine - Poor Surface Finish
+Poor surface finish on a CNC lathe is caused by worn cutting inserts, wrong feed rate or machine vibration. Replace the insert, reduce the feed to 0.1 mm/rev for finishing, check that the tool overhang is less than 4 times the shank height and verify spindle bearing play.
+
+Air Compressor - Frequent Tripping
+If the air compressor trips frequently, check the pressure switch cut-out setting (8 bar), clean the intake air filter and check for leaks in the receiver drain valve. A thermal overload trip indicates the motor is overloaded; check the belt tension and the condition of the unloader valve.
+
+PLC - Communication Error
+A PLC communication error with the HMI is usually caused by a loose Ethernet cable, a wrong IP address or a mismatched baud rate on serial links. Ping the PLC from the HMI network, confirm both devices are in the same subnet (192.168.1.x) and restart the communication driver.
+
+Welding Robot - Porosity in Welds
+Porosity in robotic MIG welds is caused by insufficient shielding gas flow, contaminated base metal or drafts. Set the gas flow to 15-20 L/min, clean oil and rust from the joint, check the nozzle for spatter and shield the cell from fans.

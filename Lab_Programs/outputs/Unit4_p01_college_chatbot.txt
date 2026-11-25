@@ -1,0 +1,19 @@
+$ python Unit4/p01_college_chatbot.py
+======================================================================
+U4 P1 - Engineering college chatbot
+A. ROHIT (192472035) - CSA65 Generative AI Lab
+======================================================================
+
+Student: hi, what time does the library close on saturday?
+Bot    : Hi! On Saturdays, the central library closes at 4 PM. Let me know if you need anything else!
+
+Student: can i pay my fees in two parts?
+Bot    : Yes, you can! Students can pay the tuition fee in two instalments after applying to the accounts office with parent consent.
+
+Student: what cgpa do I need to sit for placements?
+Bot    : Hey there! To register for campus placements, you need a minimum CGPA of 6.5 with no standing arrears. Let me know if you need help with anything else!
+
+Student: suggest a good movie for tonight
+Bot    : I can only help with college-related questions (fees, exams, hostel, library, placements...).
+
+[exit code 0, 10.9s]
